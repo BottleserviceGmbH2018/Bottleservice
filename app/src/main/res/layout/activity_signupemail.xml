@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#161b3b"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    tools:context="ch.digitalmediafactory.bottleservice.signupemail">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:padding="20dp"
+            android:layout_gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="39dp"
+                android:text="@string/and_your_email"
+                android:textColor="#f2f2fd" />
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="19dp"
+                android:text="@string/email_address"
+                android:textAllCaps="true"
+                android:textColor="#f2f2fd" />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorWhiteTransparent"
+                >
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:textSize="25dp"
+                android:hint="Ex. john@gmail.com"
+                android:textColorHint="#858f98"
+                android:alpha="0.8"
+                android:inputType="textEmailAddress"
+                android:textColor="#f2f2fd" />
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/view2"
+                android:layout_marginTop="25dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="@color/colorAccent"
+                android:innerRadius="0dp"
+                android:layout_gravity="end"
+                android:shape="ring"
+                app:cardCornerRadius="25dp">
+
+                <ImageView
+                    android:id="@+id/bRegisterEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_navigate_next_black_42dp"></ImageView>
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

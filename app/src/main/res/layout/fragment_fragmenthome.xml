@@ -1,0 +1,305 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipeRefresher"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="ch.digitalmediafactory.bottleservice.fragmenthome">
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:padding="20dp"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            android:text="In Your City"
+            android:textStyle="bold"
+            />
+
+
+        <Button
+            android:id="@+id/bBars"
+            android:layout_marginTop="45dp"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:textSize="13sp"
+            android:drawableBottom="@color/colorLightGray"
+            android:textColor="@color/colorAccent"
+            android:elevation="2dp"
+            android:background="@drawable/round_edge"
+            android:textAllCaps="false"
+            android:text="@string/bars"
+            />
+
+        <Button
+            android:id="@+id/bLounge"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="45dp"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:textSize="13sp"
+            android:drawableBottom="@color/colorLightGray"
+            android:textColor="@color/colorAccent"
+            android:elevation="2dp"
+            android:background="@drawable/round_edge"
+            android:textAllCaps="false"
+            android:text="@string/lounges"
+            />
+
+
+        <Button
+            android:layout_marginStart="138dp"
+            android:layout_marginTop="45dp"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:textSize="13sp"
+            android:drawableBottom="@color/colorLightGray"
+            android:textColor="@color/colorAccent"
+            android:elevation="2dp"
+            android:background="@drawable/round_edge"
+            android:textAllCaps="false"
+            android:text="@string/events"
+            />
+
+
+    </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:textSize="14sp"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/events"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeMaxTextSize="15sp"
+                />
+
+            <TextView
+                android:layout_marginEnd="20dp"
+                android:textAlignment="textEnd"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:textSize="14sp"
+                android:textColor="@color/colorDarkGray"
+                android:text="@string/see_all"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeMaxTextSize="15sp"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/availEvents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="10dp"
+                android:autoSizeMaxTextSize="15sp"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeTextType="uniform"
+                android:text="No Available Events"
+                android:textAlignment="textEnd"
+                android:textColor="@color/colorDarkGray"
+                android:textSize="14sp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycleViewEvents"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal"></android.support.v7.widget.RecyclerView>
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:textSize="14sp"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/lounges"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeMaxTextSize="15sp"
+                />
+
+            <TextView
+                android:id="@+id/tSeeAllLounge"
+                android:layout_marginEnd="20dp"
+                android:textAlignment="textEnd"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:textSize="14sp"
+                android:textColor="@color/colorDarkGray"
+                android:text="@string/see_all"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeMaxTextSize="15sp"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/availLounges"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="10dp"
+                android:autoSizeMaxTextSize="15sp"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeTextType="uniform"
+                android:text="No Available Lounges"
+                android:textAlignment="textEnd"
+                android:textColor="@color/colorDarkGray"
+                android:textSize="14sp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recycleViewLounge"
+                android:orientation="horizontal"></android.support.v7.widget.RecyclerView>
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:textSize="14sp"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/bars"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeMaxTextSize="15sp"
+                />
+
+            <TextView
+                android:id="@+id/BarSeeAll"
+                android:layout_marginEnd="20dp"
+                android:textAlignment="textEnd"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:textSize="14sp"
+                android:textColor="@color/colorDarkGray"
+                android:text="@string/see_all"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeMaxTextSize="15sp"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/availBars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="10dp"
+                android:autoSizeMaxTextSize="15sp"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeTextType="uniform"
+                android:text="No Available Bars"
+                android:textAlignment="textEnd"
+                android:textColor="@color/colorDarkGray"
+                android:textSize="14sp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recycleViewBars"
+                android:orientation="horizontal"></android.support.v7.widget.RecyclerView>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

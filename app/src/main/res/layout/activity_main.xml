@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottleservicebg"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    tools:context="ch.digitalmediafactory.bottleservice.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:orientation="vertical"
+            android:padding="14dp">
+
+            <Spinner
+                android:id="@+id/spinnerlanguage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:backgroundTint="@android:color/white"
+                android:gravity="center"
+                android:visibility="gone"></Spinner>
+            />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/loginlogo" />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorWhite">
+
+                <EditText
+                    android:id="@+id/etUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:autoSizeMaxTextSize="17sp"
+                    android:autoSizeMinTextSize="14sp"
+                    android:autoSizeTextType="uniform"
+                    android:backgroundTint="@color/colorWhiteTransparent"
+                    android:ems="20"
+                    android:hint="@string/email_address"
+                    android:inputType="textPersonName"
+                    android:textColor="#f2f2fd" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorWhite"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/colorWhite">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/etPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:autoSizeMaxTextSize="17sp"
+                    android:autoSizeMinTextSize="14sp"
+                    android:autoSizeTextType="uniform"
+                    android:backgroundTint="@color/colorWhiteTransparent"
+                    android:ems="20"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textColor="#f2f2fd"
+                     />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/bSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoSizeMaxTextSize="17sp"
+                android:autoSizeMinTextSize="14sp"
+                android:autoSizeTextType="uniform"
+                android:backgroundTint="@android:color/white"
+                android:longClickable="false"
+                android:text="@string/sign_in"
+                android:textColor="#426ef1" />
+
+            <TextView
+                android:id="@+id/tForgotPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:autoLink="all"
+                android:autoSizeMaxTextSize="17sp"
+                android:autoSizeMinTextSize="14sp"
+                android:autoSizeTextType="uniform"
+                android:gravity="center"
+                android:text="@string/forgot_password"
+                android:textColor="#f2f2fd"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:autoSizeMaxTextSize="17sp"
+                android:autoSizeMinTextSize="14sp"
+                android:autoSizeTextType="uniform"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="15dp"
+                android:text="@string/login_with_social_network_account"
+                android:textColor="#f2f2fd"
+                android:textSize="17sp"/>
+
+
+            <com.shaishavgandhi.loginbuttons.FacebookButton
+                android:layout_margin="2dp"
+                android:id="@+id/fbLogin"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:autoSizeMaxTextSize="16sp"
+                android:autoSizeMinTextSize="13sp"
+                android:autoSizeTextType="uniform"
+                android:text="Sign in with Facebook"
+                app:iconCenterAligned="false"
+                app:roundedCorner="true"
+                app:roundedCornerRadius="3dp"
+                app:iconSize="30dp" />
+
+            <com.shaishavgandhi.loginbuttons.GoogleButton
+                android:id="@+id/googleLogin"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_margin="2dp"
+                android:autoSizeMaxTextSize="16sp"
+                android:autoSizeMinTextSize="13sp"
+                android:autoSizeTextType="uniform"
+                android:text="Sign in with Google    "
+                android:textColor="@color/colorDarkGray"
+                app:iconCenterAligned="false"
+                app:iconSize="25dp"
+                app:roundedCorner="true"
+                app:roundedCornerRadius="3dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:autoSizeMaxTextSize="17sp"
+                android:autoSizeMinTextSize="14sp"
+                android:textSize="16sp"
+                android:autoSizeTextType="uniform"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="@string/don_t_have_an_account_yet"
+                android:textColor="#f2f2fd" />
+
+            <Button
+                android:id="@+id/signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoSizeMaxTextSize="17sp"
+                android:autoSizeMinTextSize="14sp"
+                android:autoSizeTextType="uniform"
+                android:backgroundTint="@android:color/white"
+                android:onClick="buttonViewSignUp"
+                android:text="@string/sign_up"
+                android:textColor="#426ef1" />
+
+            <TextView
+                android:id="@+id/textfirst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textlast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

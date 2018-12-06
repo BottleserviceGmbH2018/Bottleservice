@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="ch.digitalmediafactory.bottleservice.AddGuestLocationPrice">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:padding="20dp"
+            android:layout_gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="28dp"
+                android:text="@string/base_price"
+                android:textColor="#f2f2fd" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/your_base_price_is_your_default_price_per_person_and_per_lounge"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                />
+
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/price_per_person"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                />
+
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingStart="10dp"
+                android:hint="CHF"
+                android:textColorHint="@color/colorWhiteTransparent"
+                android:clickable="true"
+                android:background="@drawable/comeback_bg"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#f2f2fd"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/price_per_lounge"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                />
+
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingStart="10dp"
+                android:hint="CHF"
+                android:textColorHint="@color/colorWhiteTransparent"
+                android:clickable="true"
+                android:background="@drawable/comeback_bg"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#f2f2fd"
+                android:textSize="15sp" />
+
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="end"
+                android:layout_marginTop="70dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/comeback_bg"
+                android:clickable="true"
+                android:onClick="buttonAddGuestLocationPublish"
+                android:text="@string/next"
+                android:textAllCaps="false"
+                android:textColor="#7695f1" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

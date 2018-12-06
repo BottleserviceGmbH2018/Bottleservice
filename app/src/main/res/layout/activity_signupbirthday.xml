@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#161b3b"
+    tools:context="ch.digitalmediafactory.bottleservice.signupbirthday">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:alpha="1"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:autoLink="all"
+                android:text="@string/when_is_your_birthday"
+                android:textColor="#f2f2fd"
+                android:textSize="35dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:autoLink="all"
+                android:text="@string/you_must_be_at_least_18_years_old_to_use_bottleservice_others_won_t_see_your_birthday"
+                android:textColor="#f2f2fd"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="30dp"
+                android:autoLink="all"
+                android:text="@string/birthdate"
+                android:textColor="#f2f2fd"
+                android:textSize="19dp" />
+
+            <EditText
+                android:id="@+id/tvDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/colorWhite"
+                android:hint="     /     /"
+                android:inputType="date"
+                android:textColor="#f2f2fd"
+                android:textColorHint="@color/colorWhite"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/tvDated"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:ems="20"
+                    android:hint="press to select a date"
+                    android:inputType="text"
+                    android:textColor="#f2f2fd"
+                    android:textColorHint="#c2c2c2"
+                    android:textSize="30dp"
+                    android:visibility="gone" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="35dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="11dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:onClick="buttonViewClientTerms"
+                android:text="@string/read_terms_and_condition_here"
+                android:textColor="@color/colorAccent"
+                android:textSize="15dp" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <CheckBox
+                android:theme="@style/checkBoxStyle"
+                android:id="@+id/checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 />
+
+                <TextView
+                        android:layout_marginStart="35dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:autoLink="all"
+                    android:textAlignment="textStart"
+                        android:clickable="true"
+                        android:text="@string/by_clicking_register_you_agree_to_our_terms_and_that_you_have_read_our_conditions"
+                        android:textColor="#f2f2fd"
+                        />
+
+            </RelativeLayout>
+
+            <Button
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/bRegisterBirthdate"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:adjustViewBounds="true"
+                    android:backgroundTint="@color/colorAccent"
+                    android:background="@drawable/rounded_button"
+                    android:scaleType="centerCrop"
+                    android:text="@string/register"
+                    />
+
+            <ProgressBar
+                android:id="@+id/progressbar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@color/colorWhite"
+                android:indeterminate="true"
+                android:indeterminateTint="#1a09d6"
+                android:max="100" />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

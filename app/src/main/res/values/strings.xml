@@ -1,0 +1,390 @@
+<resources>
+    <string name="app_name">Bottle Service</string>
+    <string name="title_activity_signupname">signupname</string>
+
+    <!--Password Checker-->
+    <string name="password_strength_weak">Weak</string>
+    <string name="password_strength_medium">Medium</string>
+    <string name="password_strength_strong">Strong</string>
+    <string name="password_strength_very_strong">Very Strong</string>
+
+
+    <!--FacebookId-->
+    <string name="facebook_app_id">543876696073119</string>
+    <string name="facebook_login_protocol_scheme">fb543876696073119</string>
+
+    <string name="lounge_dashboard">Dashboard</string>
+    <string name="lounge_message">Message</string>
+    <string name="lounge_location">Location</string>
+    <string name="lounge_reserve">BottleService</string>
+    <string name="lounge_account">BottleService</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="nav_home">home</string>
+    <string name="nav_dash">Dashboard</string>
+    <string name="nav_mess">Messages</string>
+    <string name="nav_loc">Location</string>
+    <string name="nav_reserve">Reservation</string>
+    <string name="nav_acc">Account</string>
+
+
+    <string name="search">Search</string>
+    <string name="time">Fri • Sept 8 2017 • 8:00 PM to 2:00 AM</string>
+    <string name="Place">Place name</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="client">2</string>
+    <string name="lounge">1</string>
+
+    <string name="clientowner">Client</string>
+    <string name="loungeowner">Lounge</string>
+    <string name="let_s_get_you_ready_to">Let\'s get you ready to</string>
+    <string name="we_ll_ask_you_about_your_location">We\'ll ask you about your location</string>
+    <string name="edit">Edit</string>
+    <string name="guestcontinue">Continue</string>
+    <string name="availability">Availability?</string>
+    <string name="booking_window">Booking window</string>
+    <string name="future_reservations">Future reservations</string>
+    <string name="how_far_into_the_future_can_guests_book">How far into the future can guests book?</string>
+    <string name="for_the_slider">For the slider</string>
+    <string name="same_day_cut_off_time">Same day cut-off time</string>
+    <string name="same_day_request_after_this_time_ill_be_blocked">Same day request after this time ill be blocked.</string>
+    <string name="calendar">Calendar</string>
+    <string name="tap_to_block_and_unblock_days_in_the_calendar">Tap to block and unblock days in the calendar.</string>
+    <string name="base_price">Base Price</string>
+    <string name="your_base_price_is_your_default_price_per_person_and_per_lounge">Your base price is your default price per person and per lounge.</string>
+    <string name="price_per_person">Price per person</string>
+    <string name="price_per_lounge">Price per lounge</string>
+    <string name="you_re_ready_to_publish">You\'re ready to publish!</string>
+    <string name="if_you_d_like_to_update_your_posting_you_can_easily_do_al_that_after_yuo_hit_publish">If you\'d like to update your posting, you can easily do al that after yuo hit publish.</string>
+    <string name="publish_location">Publish location</string>
+    <string name="make_changes">Make Changes</string>
+    <string name="start_with_the_basics">Start with the basics</string>
+    <string name="type_and_general_information">type and general information.</string>
+    <string name="set_the_venue">Set the venue</string>
+    <string name="walk_through_taking_the_best_photos">Walk through taking the best photos</string>
+    <string name="and_writing_description_guest_are">and writing description guest are</string>
+    <string name="get_ready_for_the_guest">Get ready for the guest</string>
+    <string name="get_off_on_the_right_foot_with_price">Get off on the right foot with price,</string>
+    <string name="and_booking_settings">and booking settings.</string>
+    <string name="where_s_your_place_located">Where\'s your place located?</string>
+    <string name="address_1">Address 1</string>
+    <string name="address_2_optional">Address 2 (optional)</string>
+    <string name="city">City</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="describe_your_location_to_guest">Describe your location to guest</string>
+    <string name="describe_the_decor_what_s_nearby">Describe the decor, what\'s nearby....</string>
+    <string name="which_feature_do_you_offer">Which feature do you offer?</string>
+    <string name="full_bar">Full bar</string>
+    <string name="outdoor_seating">Outdoor Seating</string>
+    <string name="craft_seer">Craft seer</string>
+    <string name="nightlife">Nightlife</string>
+    <string name="wireless_internet">Wireless Internet</string>
+    <string name="air_conditioning">Air conditioning</string>
+    <string name="cash_payment">Cash Payment</string>
+    <string name="what_kind_of_location_are_you_posting">What kind of location are you posting?</string>
+    <string name="what_type_of_location">What type of location?</string>
+    <string name="number_of_guests">Number of guests</string>
+    <string name="next">Next</string>
+    <string name="give_your_place_a_title">Give your place a title</string>
+    <string name="set_your_general_business_hours">Set your general business hours.</string>
+    <string name="monday">Monday</string>
+    <string name="add_new_time_slot">ADD NEW TIME SLOT</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="are_you_ready_to_add_photos">Are you ready to add photos?</string>
+    <string name="every_guests_love_to_see_photos_of_the_place_do_you_have_time_to_now_to_take_them">Every guests love to see photos of the place. Do you have time to now to take them?</string>
+    <string name="add_photos_now">Add photos now</string>
+    <string name="for_the_overall_layout_or_map">For the overall layout or map</string>
+    <string name="come_back_to_it_later">Come back to it later</string>
+    <string name="specific_areas_of_your_lounge_bar_or_event">Specific areas of your lounge, bar, or event</string>
+    <string name="you_can_add_specific_area_if_you_have_any">You can add specific area if you have any.</string>
+    <string name="add_specific_area_of_your_location">Add specific area of your location</string>
+    <string name="you_can_add_special_area_if_you_have_any">You can add special area if you have any.</string>
+    <string name="add_details_for_your_specific_area">Add details for your specific area</string>
+    <string name="give_your_special_area_a_title">Give your special area a title</string>
+    <string name="describe_your_special_area">Describe your special area...</string>
+    <string name="general_price">General Price</string>
+    <string name="for_this_special_area">For this special area</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="settings">Settings</string>
+    <string name="payout_methods">Payout Methods</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="feedback">Feedback</string>
+    <string name="like_bottleservice_on_facebook">Like Bottleservice on Facebook</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="earnings">Earnings</string>
+    <string name="today">Today</string>
+    <string name="total_payments">Total Payments</string>
+    <string name="margin_rate">Margin Rate</string>
+    <string name="revenue">Revenue</string>
+    <string name="owners">Owners</string>
+    <string name="locations">Locations</string>
+    <string name="you_have_pending_owner_approvals">You have pending owner approvals</string>
+    <string name="clients">Clients</string>
+    <string name="all">All</string>
+    <string name="reservation">Reservation</string>
+    <string name="payments">Payments</string>
+    <string name="reviews">Reviews</string>
+    <string name="cancellations_by_clients">Cancellations by clients</string>
+    <string name="online_users">Online Users</string>
+    <string name="users">Users</string>
+    <string name="messages">Messages</string>
+    <string name="inbox">Inbox</string>
+    <string name="outbox">Outbox</string>
+    <string name="you_have_new_messages">You have New Messages</string>
+    <string name="bars">Bars</string>
+    <string name="full_bar_available_outdoor_seating_craft_beer_nightlife_wifi_cash_and_cards_accepted">Full Bar Available, Outdoor Seating, Craft Beer, Nightlife, Wifi, Cash and Cards accepted.</string>
+    <string name="menu">Menu</string>
+    <string name="floor_plan">Floor Plan</string>
+    <string name="see">See</string>
+    <string name="maps_and_directions">Maps and Directions</string>
+    <string name="opening_hours">Opening Hours</string>
+    <string name="read_all_51">Read All (51)</string>
+    <string name="events">Events</string>
+    <string name="see_all">See All</string>
+    <string name="_00_0_km_address">00.0 km • Address</string>
+    <string name="clientlounge">Lounge</string>
+    <string name="back">Back</string>
+    <string name="_5_0">5.0</string>
+    <string name="_10_2_km_address">10.2 km • Address</string>
+    <string name="open_now_8_pm_to_2_am_tue">Open Now - 8 PM to 2 AM (Tue)</string>
+    <string name="more_info">More Info</string>
+    <string name="tables">Tables</string>
+    <string name="review_and_pay">Review and Pay</string>
+    <string name="white_sand_desert">White Sand Desert</string>
+    <string name="small_table_located_in_the_main_room">"Small table located in the main room "</string>
+    <string name="event">Event</string>
+    <string name="dave_birthday_party">Dave Birthday Party</string>
+    <string name="date">Date</string>
+    <string name="sept_8_2017">Sept 8 2017</string>
+    <string name="guest">Guest</string>
+    <string name="_6_guests">6 guests</string>
+    <string name="payment">Payment</string>
+    <string name="datatrans">Datatrans AG</string>
+    <string name="total">Total</string>
+    <string name="minimum_spend">Minimum spend</string>
+    <string name="cancellation_policy">Cancellation Policy</string>
+    <string name="read_terms_and_condition_here">Read Terms and Condition Here.</string>
+    <string name="cancel_up_to_10_days_before_your_booked_date">Cancel up to 10 days before your booked date</string>
+    <string name="and_get_a_full_refund_after_that_time_cancel">and get a full refund. After that time, cancel</string>
+    <string name="booked_date_and_get_a_50_refund">booked date and get a 50% refund.</string>
+    <string name="agree_and_continue">agree and continue</string>
+    <string name="profile">Profile</string>
+    <string name="format_xxxx_xxxx_xxxx_xxxx_xxxx_x">Format: xxxx xxxx xxxx xxxx xxxx x</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="bank_address_1">Bank Address 1</string>
+    <string name="bank_address_2">Bank Address 2</string>
+    <string name="cancel">cancel</string>
+    <string name="ok">ok</string>
+    <string name="add_banking_account">Add Banking Account</string>
+    <string name="company_name">Company Name</string>
+    <string name="owner_name">Owner Name</string>
+    <string name="email">Email</string>
+    <string name="contact_location">contact location</string>
+    <string name="contact_information">contact information</string>
+    <string name="company_phone_number">Company phone number</string>
+    <string name="owners_phone_number">Owners phone number</string>
+    <string name="owner_s_mobile_number">Owner\'s mobile number</string>
+    <string name="update_details">update details</string>
+    <string name="change_password">Change Password</string>
+    <string name="create_a_password">Create a Password</string>
+    <string name="your_password_must_be_8_or_more_characters_long_do_not_use_any_common_password_repetition_and_sequences">Your password must be 8 or more characters long. Do not use any common password, repetition and sequences.</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="repeat_new_password">Repeat New Password</string>
+    <string name="save">save</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="connect_to_facebook">Connect to Facebook</string>
+    <string name="connect_to_google">Connect to Google +</string>
+    <string name="xyz_bar">XYZ Bar</string>
+    <string name="visits">Visits</string>
+    <string name="no_reviews_yet">No Reviews yet</string>
+    <string name="the_best_event">The Best Event!</string>
+    <string name="account">Account</string>
+    <string name="terms_of_service_and_privacy_policy">Terms of Service and Privacy Policy</string>
+    <string name="digital_media_factory_android_2_5_2_beta">Digital Media Factory Android 2.5.2 (beta)</string>
+    <string name="news">New</string>
+    <string name="client_name">Client Name</string>
+    <string name="location">Location</string>
+    <string name="booking">Booking</string>
+    <string name="status">Status</string>
+    <string name="email_address">Email Address</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="login_with_social_network_account">Login with social network account</string>
+    <string name="login_in_facebook">Login in Facebook</string>
+    <string name="login_in_google">Login in Google+</string>
+    <string name="don_t_have_an_account_yet">Don\'t have an account yet?</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="bar">Bar</string>
+    <string name="lounges">Lounge</string>
+    <string name="authorized_users">Authorized Users</string>
+    <string name="pending">Pending</string>
+    <string name="registered">Registered</string>
+    <string name="locked">Locked</string>
+    <string name="joined">Joined</string>
+    <string name="since">Since</string>
+    <string name="administrator">Administrator</string>
+    <string name="name">name</string>
+    <string name="pendings">Pending 🅧</string>
+    <string name="no">No ⚿</string>
+    <string name="register_new_authorized_user_account">Register New Authorized User Account</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="rejected">Rejected</string>
+    <string name="cancellations">Cancellations</string>
+    <string name="general">General</string>
+    <string name="unregistered">Unregistered</string>
+    <string name="applied">Applied</string>
+    <string name="address">Address</string>
+    <string name="total_pending">Total Pending</string>
+    <string name="approved">Approved ✓</string>
+    <string name="what_type_of_account_you_want_to_register">What type of account you want to register?</string>
+    <string name="personal">Personal</string>
+    <string name="company">Company</string>
+    <string name="when_is_your_birthday">When is your birthday?</string>
+    <string name="you_must_be_at_least_18_years_old_to_use_bottleservice_others_won_t_see_your_birthday">You must be at least 18 years old to use Bottleservice. Others won\'t see your birthday.</string>
+    <string name="birthdate">BIRTHDATE</string>
+    <string name="by_clicking_register_you_agree_to_our_terms_and_that_you_have_read_our_conditions">By clicking register, you agree to our Terms and that you have read our Conditions</string>
+    <string name="register">Register</string>
+    <string name="what_s_your_company_name">What\'s your Company name?</string>
+    <string name="ex_company_xyz">Ex. Company XYZ</string>
+    <string name="what_s_the_owner_s_name_optional">What\'s the Owner\'s name? (Optional)</string>
+    <string name="company_owner_s_name">COMPANY OWNER\'S NAME</string>
+    <string name="and_the_contact_information">And, the Contact Information</string>
+    <string name="owner_s_phone_number_optional">OWNER\'S PHONE NUMBER (optional)</string>
+    <string name="and_the_owner_s_email">And, the Owner\'s email?</string>
+    <string name="where_s_your_company_located">Where\'s your Company located?</string>
+    <string name="address_2">address 2</string>
+    <string name="add_your_company_logo">Add your Company Logo</string>
+    <string name="skip">SKIP</string>
+    <string name="password">PASSWORD</string>
+    <string name="re_enter_password">RE-ENTER PASSWORD</string>
+    <string name="and_your_email">And, your email?</string>
+    <string name="what_s_your_name">What\'s your name?</string>
+    <string name="first_name">FIRST NAME</string>
+    <string name="middle_name">MIDDLE NAME (Optional)</string>
+    <string name="last_name">LAST NAME</string>
+    <string name="published">Published</string>
+    <string name="request">request</string>
+    <string name="notifications">Notifications</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="waiting_for_approval">- Waiting for approval</string>
+    <string name="paid">PAID</string>
+    <string name="message_for_special_services">Message for special services</string>
+    <string name="create_another_location">Create another location</string>
+    <string name="opens_at_8_00_pm">Opens at 8:00 PM</string>
+    <string name="welcome_to_bottleservice_user_guide">Welcome to Bottleservice! \n You are few clicks away in reserving seats and menus for lounge and bar services and special events.</string>
+    <string name="to_search_within_the_bottleservice_app">To search within the Bottleservice app you can simply select the Search button at the top right corner. This will search all of bars, lounges and events in your city and within your proximity providing statistics on shop openings and closings, last minute reservations, guess ratings and many more. You can also see your recent searches within the search screen</string>
+    <string name="start_by_browsing_through_categories">Start by browsing through categories. Choose from bars, lounges and special events. Know its availability, pricing and distance from where you are and book your way in.</string>
+    <string name="drawer_items">Check email confirmation and payment receipts through Messages, review previous and current bookings through your Booking calendar, feeling lost? get back to those saved pages through Bookmarks, you can customize your account profile plus more on Settings. Click on the Home Drawer and manage your account now.</string>
+    <string name="choose_a_bar_an_event_or_a_lounge_that_you_want_to_book_in">Choose a bar, an event or a lounge that you want to book in.</string>
+    <string name="click_on_the_image_to_show_details">Click on the image to show details</string>
+    <string name="ready_to_book_in_click_on_request_to_confirm">Ready to book in? Click on request to confirm.</string>
+    <string name="review_booking_details_including_payment">Review booking details including payment.</string>
+    <string name="check_mark_the_terms_and_agreement_after_reading_and_click_on_agree_and_continue_to_check_out">Check mark the Terms and Agreement after reading and click on Agree and Continue to check out.</string>
+    <string name="congratulations_your_booking_has_been_confirmed">Congratulations! Your booking has been confirmed. You may check your confirmation on Bookings Calendar via your app settings.</string>
+
+
+
+    <string-array name="location">
+        <item>Bar</item>
+        <item>Lounge</item>
+        <item>Events</item>
+    </string-array>
+
+
+    <string-array name="language">
+        <item>EN</item>
+        <item>DE</item>
+    </string-array>
+
+
+    <string-array name="AppOwnerApprovals" translatable="false">
+        <item></item>
+        <item>Approve</item>
+        <item>Release</item>
+    </string-array>
+
+
+    <string-array name="availdates" translatable="false">
+        <item>All future dates</item>
+        <item>January</item>
+        <item>Febuary</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="availtime" translatable="false">
+        <item>First day 12:00PM</item>
+        <item>First day 1:00PM</item>
+        <item>First day 2:00PM</item>
+        <item>First day 3:00PM</item>
+        <item>First day 4:00PM</item>
+        <item>First day 5:00PM</item>
+        <item>First day 6:00PM</item>
+        <item>First day 7:00PM</item>
+        <item>First day 8:00PM</item>
+        <item>First day 9:00PM</item>
+        <item>First day 10:00PM</item>
+        <item>First day 11:00PM</item>
+        <item>First day 12:00AM</item>
+        <item>First day 1:00AM</item>
+        <item>First day 2:00AM</item>
+        <item>First day 3:00AM</item>
+        <item>First day 4:00AM</item>
+        <item>First day 5:00AM</item>
+        <item>First day 6:00AM</item>
+        <item>First day 7:00AM</item>
+        <item>First day 8:00AM</item>
+        <item>First day 9:00AM</item>
+        <item>First day 10:00AM</item>
+        <item>First day 11:00AM</item>
+        <item>Second day 12:00PM</item>
+        <item>Second day 1:00PM</item>
+        <item>Second day 2:00PM</item>
+        <item>Second day 3:00PM</item>
+        <item>Second day 4:00PM</item>
+        <item>Second day 5:00PM</item>
+        <item>Second day 6:00PM</item>
+        <item>Second day 7:00PM</item>
+        <item>Second day 8:00PM</item>
+        <item>Second day 9:00PM</item>
+        <item>Second day 10:00PM</item>
+        <item>Second day 11:00PM</item>
+        <item>Second day 12:00AM</item>
+        <item>Second day 1:00AM</item>
+        <item>Second day 2:00AM</item>
+        <item>Second day 3:00AM</item>
+        <item>Second day 4:00AM</item>
+        <item>Second day 5:00AM</item>
+        <item>Second day 6:00AM</item>
+        <item>Second day 7:00AM</item>
+        <item>Second day 8:00AM</item>
+        <item>Second day 9:00AM</item>
+        <item>Second day 10:00AM</item>
+        <item>Second day 11:00AM</item>
+    </string-array>
+
+
+</resources>

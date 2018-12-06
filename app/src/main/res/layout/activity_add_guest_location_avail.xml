@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="ch.digitalmediafactory.bottleservice.AddGuestLocationAvail">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:padding="20dp"
+            android:layout_gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="28sp"
+                android:text="@string/availability"
+                android:textColor="#f2f2fd" />
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="20sp"
+                android:text="@string/booking_window"
+                android:textColor="#f2f2fd" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/future_reservations"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/how_far_into_the_future_can_guests_book"
+                android:textColor="@color/colorWhite"
+                android:textSize="13sp"
+                />
+
+
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/for_the_slider"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                />
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight=".28"
+                android:background="@drawable/comeback_bg"
+                android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinneravail"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@android:color/white"
+                ></Spinner>
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/same_day_cut_off_time"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/same_day_request_after_this_time_ill_be_blocked"
+                android:textColor="@color/colorWhite"
+                android:textSize="13sp"
+                />
+
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight=".28"
+                android:background="@drawable/comeback_bg"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spinneravailtime"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@android:color/white"
+                    ></Spinner>
+
+
+            </RelativeLayout>
+
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="end"
+                android:layout_marginTop="70dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/comeback_bg"
+                android:clickable="true"
+                android:onClick="buttonAddGuestLocationCalendar"
+                android:text="@string/next"
+                android:textAllCaps="false"
+                android:textColor="#7695f1" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

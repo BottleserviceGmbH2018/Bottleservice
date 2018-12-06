@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "771897341849",
+    "firebase_url": "https://bottleservice-9f5dc.firebaseio.com",
+    "project_id": "bottleservice-9f5dc",
+    "storage_bucket": "bottleservice-9f5dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771897341849:android:c90cc5b6015e7e9e",
+        "android_client_info": {
+          "package_name": "ch.digitalmediafactory.bottleservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771897341849-fde1eqc5siq2c4smtflo1j268da5p513.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBYRY9AyJM6yR1cjaA9SR6QRNRiq4N1kc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

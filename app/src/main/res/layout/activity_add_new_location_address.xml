@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="ch.digitalmediafactory.bottleservice.AddNewLocationAddress">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:padding="20dp"
+            android:layout_gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="28dp"
+                android:text="@string/where_s_your_place_located"
+                android:textColor="#f2f2fd" />
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="18dp"
+                android:text="@string/address_1"
+                android:textColor="#f2f2fd" />
+
+            <EditText
+                android:id="@+id/Address1"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:hint="Ex. Breitenstrasse 4 6403"
+                android:textColorHint="#858f98"
+                android:alpha="0.8"
+                android:inputType="textPersonName"
+                android:textColor="#f2f2fd" />
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="18dp"
+                android:text="@string/address_2_optional"
+                android:textColor="#f2f2fd" />
+
+            <EditText
+                android:id="@+id/Address2"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:textSize="22dp"
+                android:textColorHint="#858f98"
+                android:alpha="0.8"
+                android:inputType="textPersonName"
+                android:textColor="#f2f2fd" />
+
+            <TextView
+                android:layout_marginBottom="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="18dp"
+                android:text="@string/city"
+                android:textColor="#f2f2fd" />
+
+            <EditText
+                android:id="@+id/City"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:hint="Ex. Küssnacht am Rigi"
+                android:textColorHint="#858f98"
+                android:alpha="0.8"
+                android:inputType="textPersonName"
+                android:textColor="#f2f2fd" />
+
+            <TextView
+                android:layout_marginBottom="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="18dp"
+                android:text="@string/postal_code"
+                android:textColor="#f2f2fd" />
+
+            <EditText
+                android:id="@+id/PostalCode"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:hint="Ex. 4102"
+                android:textColorHint="#858f98"
+                android:alpha="0.8"
+                android:inputType="textPersonName"
+                android:textColor="#f2f2fd" />
+
+
+            <Button
+                android:id="@+id/bNext"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:backgroundTint="#7695f1"
+                android:textColor="#f2f2fd"
+                android:textAllCaps="false"
+                android:text="@string/next"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

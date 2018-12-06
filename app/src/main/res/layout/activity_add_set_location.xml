@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ch.digitalmediafactory.bottleservice.AddSetLocation">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="@color/Dashboard"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+
+                    <ImageButton
+                        android:paddingStart="20dp"
+                        android:paddingTop="25dp"
+                        android:layout_gravity="start"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/Dashboard"
+                        android:clickable="true"
+                        android:onClick="buttonViewLocation"
+                        app:srcCompat="@drawable/close" />
+
+
+
+                    <TextView
+                        android:paddingTop="30dp"
+                        android:paddingStart="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/let_s_get_you_ready_to"
+                        android:textColor="#f2f2fd"
+                        android:textSize="33sp"
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <LinearLayout
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:paddingTop="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/start_with_the_basics"
+                    android:textColor="@color/Dashboard"
+                    android:textSize="28sp"
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/we_ll_ask_you_about_your_location"
+                    android:textColor="@color/Dashboard"
+                    android:textSize="17sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/type_and_general_information"
+                    android:textColor="@color/Dashboard"
+                    android:textSize="17sp"
+                    />
+
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:layout_width="130dp"
+                    android:layout_height="40dp"
+                    android:text="@string/edit"
+                    android:clickable="true"
+                    android:onClick="buttonViewAddNewLocationGeneral"
+                    android:background="@drawable/my_button_bg"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="#7695f1"
+                    android:textSize="17sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#cccccc"></LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/set_the_venue"
+                    android:textColor="@color/Dashboard"
+                    android:textSize="28sp"
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/we_ll_ask_you_about_your_location"
+                    android:textColor="@color/Dashboard"
+                    android:textSize="17sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/type_and_general_information"
+                    android:textColor="@color/Dashboard"
+                    android:textSize="17sp"
+                    />
+
+                <Button
+                    android:id="@+id/bSetVenue"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="130dp"
+                    android:layout_height="40dp"
+                    android:text="@string/guestcontinue"
+                    android:background="@drawable/my_button_bg"
+                    android:backgroundTint="#7695f1"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="#f2f2fd"
+                    android:textSize="17sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#cccccc"></LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="@string/get_ready_for_the_guest"
+                    android:textColor="@color/Dashboard"
+                    android:textSize="28sp"
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="@string/get_off_on_the_right_foot_with_price"
+                    android:textColor="@color/Dashboard"
+                    android:textSize="17sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="@string/and_booking_settings"
+                    android:textColor="@color/Dashboard"
+                    android:textSize="17sp"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#cccccc"></LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

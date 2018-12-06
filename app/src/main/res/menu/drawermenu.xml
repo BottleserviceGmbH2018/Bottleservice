@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single">
+    <item android:id="@+id/home" android:title="Home" android:icon="@drawable/ic_home_black_24dp"
+        android:checked="true" />
+
+    <item android:id="@+id/msg" android:title="Message"  android:icon="@drawable/ic_mail_outline_black_24dp"/>
+    <item android:id="@+id/book" android:title="Bookings"  android:icon="@drawable/ic_date_range_black_24dp"/>
+    <item android:id="@+id/pay" android:title="Payment Method"  android:icon="@drawable/ic_credit_card_black_24dp"/>
+    <!--<item android:id="@+id/bookmark" android:title="Bookmarks"  android:icon="@drawable/ic_bookmark_border_black_24dp"/>-->
+    <!--<item android:id="@+id/friend" android:title="Invite Friends"  android:icon="@drawable/ic_share_black_24dp"/>-->
+    <item android:id="@+id/setting" android:title="Settings"  android:icon="@drawable/ic_settings_black_24dp"/>
+        <item
+            android:id="@+id/logout"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginEnd="427dp"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Log Out" />
+    </group>
+
+
+
+</menu>

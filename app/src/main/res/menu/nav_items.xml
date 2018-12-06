@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/nav_dash"
+        android:id="@+id/ic_dash"
+        />
+    <item
+        android:icon="@drawable/ic_inbox_black_24dp"
+        android:title="@string/nav_mess"
+        android:id="@+id/ic_inbox"/>
+    <item
+        android:icon="@drawable/ic_room_black_24dp"
+        android:title="@string/nav_loc"
+        android:id="@+id/ic_loc"/>
+    <item
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/nav_reserve"
+        android:id="@+id/ic_notif"/>
+    <item
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="@string/nav_acc"
+        android:id="@+id/ic_acc"/>
+</menu>

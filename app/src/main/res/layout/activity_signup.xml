@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#161b3b"
+    tools:context="ch.digitalmediafactory.bottleservice.signup">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="1"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:autoLink="all"
+             android:textSize="35dp"
+             android:text="@string/what_type_of_account_you_want_to_register"
+             android:textColor="#f2f2fd" />
+
+        <Switch
+            android:id="@+id/switcher"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="70dp"
+            android:maxHeight="50dp"
+            android:minWidth="100dp"
+            android:scaleX="1"
+            android:scaleY="1.1"
+            android:switchMinWidth="70dp"
+            android:text="Client"
+            android:textColor="@color/colorWhite"
+            android:textOff="@string/client"
+            android:textOn="@string/lounge"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:thumbTextPadding="25dp"
+            />
+
+        <Button
+            android:id="@+id/bRegisterPersonal"
+            android:layout_marginTop="10dp"
+            android:layout_width="210dp"
+            android:layout_height="62dp"
+            android:textAllCaps="false"
+            android:background="@drawable/rounded_button"
+            android:textSize="25dp"
+            android:text="@string/personal"
+            />
+
+
+        <Button
+            android:id="@+id/bRegisterCompany"
+            android:layout_marginTop="43dp"
+            android:layout_width="210dp"
+            android:layout_height="62dp"
+            android:textAllCaps="false"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="#426ef1"
+            android:textSize="25dp"
+            android:text="@string/company"
+            />
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+</RelativeLayout>

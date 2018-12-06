@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="270dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="2dp"
+            app:cardMaxElevation="2dp"
+            android:layout_centerInParent="true"
+           >
+
+            <RelativeLayout
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cardViewEvents"
+                    android:layout_width="400dp"
+                    android:layout_height="170dp"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="2dp"
+                    app:cardMaxElevation="2dp"
+                    >
+
+
+                <ImageView
+                    android:id="@+id/imageEvents"
+                    android:layout_width="400dp"
+                    android:layout_height="170dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/round_button"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/party"
+                    />
+
+                    <TextView
+                        android:paddingStart="8dp"
+                        android:id="@+id/lastminute"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/text2"
+                        android:autoSizeMaxTextSize="15sp"
+                        android:autoSizeMinTextSize="8sp"
+                        android:autoSizeTextType="uniform"
+                        android:gravity="start"
+                        android:layout_gravity="bottom"
+                        android:text="Last Minute Reservation"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorWhite"
+                        android:background="#ffbb33"
+                        android:textSize="12dp"
+                        android:visibility="visible" />
+
+                </android.support.v7.widget.CardView>
+
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/EventName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Events Name"
+                    android:layout_below="@id/cardViewEvents"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textAllCaps="false"
+                    android:gravity="start"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMinTextSize="8sp"
+                    android:autoSizeMaxTextSize="15sp"
+                    />
+
+                <TextView
+                    android:id="@+id/EventsId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"/>
+
+
+                <TextView
+                    android:layout_marginStart="20dp"
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/time"
+                    android:layout_below="@id/EventName"
+                    android:textColor="@color/colorDarkGray"
+                    android:textSize="12dp"
+                    android:textAllCaps="false"
+                    android:gravity="start"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMinTextSize="8sp"
+                    android:autoSizeMaxTextSize="15sp"
+                    />
+
+                <TextView
+                    android:layout_marginStart="20dp"
+                    android:id="@+id/EventTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/time"
+                    android:layout_below="@id/EventName"
+                    android:textColor="@color/colorDarkGray"
+                    android:textSize="12dp"
+                    android:textAllCaps="false"
+                    android:gravity="start"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMinTextSize="8sp"
+                    android:autoSizeMaxTextSize="15sp"
+                    />
+
+                <TextView
+                android:layout_marginStart="23dp"
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Place"
+                android:layout_below="@id/text2"
+                android:textColor="@color/colorDarkGray"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:gravity="start"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeMaxTextSize="15sp"
+                />
+
+
+                <TextView
+                    android:layout_marginStart="23dp"
+                    android:id="@+id/text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00.0 km • Address"
+                    android:layout_below="@id/text3"
+                    android:textColor="@color/colorDarkGray"
+                    android:textSize="12dp"
+                    android:textAllCaps="false"
+                    android:gravity="start"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMinTextSize="8sp"
+                    android:autoSizeMaxTextSize="15sp"
+                    />
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+</RelativeLayout>

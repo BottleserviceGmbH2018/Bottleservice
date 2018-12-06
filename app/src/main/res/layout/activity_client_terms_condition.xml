@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ch.digitalmediafactory.bottleservice.ClientTermsCondition">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+
+
+            <!--Title Page-->
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="20sp"
+                android:textColor="@color/Dashboard"
+                android:autoSizeMinTextSize="13sp"
+                android:autoSizeMaxTextSize="20sp"
+                android:textAlignment="center"
+                android:text="General Terms and Conditions by Bottleservice GmbH for Clients"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="15sp"
+                android:autoSizeMinTextSize="13sp"
+                android:autoSizeMaxTextSize="20sp"
+                android:text="Zurich, 25.1.2018 (version 1.0)"
+                />
+
+
+
+            <!--AGENCY-->
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="15sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="18sp"
+                android:textColor="@color/Dashboard"
+                android:text="Agency"
+                android:textAllCaps="false"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="14sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="18sp"
+                android:text="Bottleservice GmbH acts as agent for a mandate between clients and owners of Locations (such as lounges, bars or events). Clients can get an overview of lounges in their area via our Mobile App and can service a location via Mobile App. Bottleservice GmbH is acting as an agent. The services are provided by the owner of a location according to the reservation agreement."
+                android:textAllCaps="false"
+                />
+
+
+
+
+            <!--RESERVATION-->
+
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="15sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="18sp"
+                android:textColor="@color/Dashboard"
+                android:text="Reservation"
+                android:textAllCaps="false"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="14sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="18sp"
+                android:text="An area within a location can be reserved for a given day and time. The reservation can be confirmed immediately for some locations – however for other locations the ok of the owner is requested by the Mobile App. Upon confirmation of the reservation, the full amount is due. Out payment service provider is Datatrans AG, a well-established and secure player in the payment market. "
+                android:textAllCaps="false"
+                />
+
+
+
+
+
+            <!--RESERVATION CONFIRM-->
+
+
+            <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="15sp"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeMaxTextSize="18sp"
+            android:textColor="@color/Dashboard"
+            android:text="Reservation confirmation by the location owner"
+            android:textAllCaps="false"
+            />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="14sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="18sp"
+                android:text="We alert our clients via SMS and/or email upon confirmation of a manual reservation. The reservation can then be completed by the Mobile App."
+                android:textAllCaps="false"
+                />
+
+
+
+
+            <!--PAYMENT OVERVIEW-->
+
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="15sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="18sp"
+                android:textColor="@color/Dashboard"
+                android:text="Payment overview"
+                android:textAllCaps="false"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="14sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="18sp"
+                android:text="The client can at all times view the reservation in the Mobile App with status and confirmation of the payment entry."
+                android:textAllCaps="false"
+                />
+
+
+
+            <!--REVIEWS-->
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="15sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="18sp"
+                android:textColor="@color/Dashboard"
+                android:text="Reviews"
+                android:textAllCaps="false"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="14sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="18sp"
+                android:text="We kindly ask all our clients to review a location. The reviews will be shown in the Mobile App as part of browsing the locations. We – as well as all our clients and owners – expect a fair and objective valuation. Please take distance from unfair and hurting comments."
+                android:textAllCaps="false"
+                />
+
+
+
+
+            <!--CANCELLATION OF A RESERVATION-->
+
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="15sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="18sp"
+                android:textColor="@color/Dashboard"
+                android:text="Cancellation of a reservation by the client"
+                android:textAllCaps="false"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="14sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="18sp"
+                android:text="A client can cancel a reservation with a cancellation fee of CHF 10.00 up to 72 hours before the reservation time. Bottleservice GmbH will return the reservation amount upon received payment entry on our account and transfer the amount back to the client minus the cancellation fee. A client can cancel a reservation with a cost of 50% up from 71 hours to 24 hours before reservation time. Bottleservice GmbH will return the reservation amount upon received payment entry on our account and transfer the amount back to the client minus the cancellation fee. It is not possible to cancel a reservation during the last 23:59 minutes prior to the reservation time. The lounge owner will be credited in full minus a cancellation fee"
+                android:textAllCaps="false"
+                />
+
+
+
+
+            <!--Validity of a reservation-->
+
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="15sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="18sp"
+                android:textColor="@color/Dashboard"
+                android:text="Validity of a reservation"
+                android:textAllCaps="false"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="14sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="18sp"
+                android:text="The reservation remains valid until 2 hours prior to the reservation time. After the two hours, theright on the reservation by the client is waived und the owner of the location can make use of the free places at his discretion."
+                android:textAllCaps="false"
+                />
+
+
+
+
+
+            <!--Validity of a reservation-->
+
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="15sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="18sp"
+                android:textColor="@color/Dashboard"
+                android:text="Cancellation of a reservation by the owner of the location"
+                android:textAllCaps="false"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="14sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="18sp"
+                android:text="It can happen, that the owner of a location has to cancel a reservation. The annulation will then be confirmed by Bottleservice GmbH to the client and the full amount will be credited back to the client upon received payment.\n\nBottleservice GmbH will try its best in this case to find a good solution for the client."
+                android:textAllCaps="false"
+                />
+
+
+
+            <!--Description of the location-->
+
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="15sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="18sp"
+                android:textColor="@color/Dashboard"
+                android:text="Description of the location"
+                android:textAllCaps="false"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="14sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="18sp"
+                android:text="All the information about a location are maintained by the owner. Bottleservice GmbH is not in a situation to guarantee the correctness of the content. However, Bottleservice GmbH is ensuring the correctness of the information with regular controls of the location. Bottleservice GmbH is happy to act on complaints and guarantees to address the complaints with a feedback to the client. "
+                android:textAllCaps="false"
+                />
+
+
+            <!--Requested service was not fulfilled by the location owner-->
+
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="15sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="18sp"
+                android:textColor="@color/Dashboard"
+                android:text="Requested service was not fulfilled by the location owner"
+                android:textAllCaps="false"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="14sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="18sp"
+                android:text="The owner of a location is responsible to provide the agreed service (reserved area, pre-order of the menu). Please contact Bottleservice GmbH In case of non-compliance by the location owner, so that we can find a fair agreement that meets the expectations of all involved stakeholders. "
+                android:textAllCaps="false"
+                />
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

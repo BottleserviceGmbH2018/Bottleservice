@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:id="@+id/location_image"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/party"
+            />
+
+
+        <TextView
+            android:id="@+id/placeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/placeAddress"
+            android:text="Textview"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+        android:id="@+id/placeAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/placeName"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="22dp"
+        android:layout_toEndOf="@+id/location_image"
+        android:text="@string/_00_0_km_address" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="27dp"
+            android:layout_height="23dp"
+            android:layout_alignBottom="@+id/location_image"
+            android:layout_alignStart="@+id/placeAddress"
+            android:layout_gravity="end"
+            android:autoSizeMaxTextSize="15sp"
+            android:autoSizeMinTextSize="8sp"
+            android:autoSizeTextType="uniform"
+            android:background="#7695f1"
+            android:gravity="center"
+            android:text="5.0"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/text5"
+            android:layout_alignBottom="@+id/text5"
+            android:layout_marginStart="9dp"
+            android:layout_toEndOf="@+id/text5"
+            android:autoSizeMaxTextSize="15sp"
+            android:autoSizeMinTextSize="8sp"
+            android:autoSizeTextType="uniform"
+            android:gravity="start"
+            android:text="Opens at"
+            android:textAllCaps="false"
+            android:textColor="@color/colorGreen"
+        />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/text5"
+            android:layout_alignBottom="@+id/text5"
+            android:layout_marginStart="3dp"
+            android:layout_toEndOf="@+id/text4"
+            android:autoSizeMaxTextSize="15sp"
+            android:autoSizeMinTextSize="8sp"
+            android:autoSizeTextType="uniform"
+            android:gravity="start"
+            android:text="10:00 PM"
+            android:textAllCaps="false"
+            android:textColor="@color/colorGreen" />
+
+
+        <TextView
+            android:id="@+id/placeId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/placeName"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="22dp"
+            android:visibility="gone"
+            android:layout_toEndOf="@+id/location_image"
+            android:text="@string/_00_0_km_address" />
+
+        <TextView
+            android:id="@+id/placeType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/placeName"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="22dp"
+            android:visibility="gone"
+            android:layout_toEndOf="@+id/location_image"
+            android:text="@string/_00_0_km_address" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>

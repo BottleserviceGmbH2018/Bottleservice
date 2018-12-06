@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ch.digitalmediafactory.bottleservice.ClientImpressum">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+
+
+        <!--CONTACT-->
+
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:autoSizeMinTextSize="13sp"
+        android:autoSizeMaxTextSize="20sp"
+        android:text="Contact"
+         />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:textSize="14sp"
+        android:autoSizeMinTextSize="10sp"
+        android:autoSizeMaxTextSize="18sp"
+        android:text="Bottle service"
+        android:textAllCaps="false"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="14sp"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeMaxTextSize="18sp"
+            android:text="Schornäglnstrasse 35"
+            android:textAllCaps="false"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="14sp"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeMaxTextSize="18sp"
+            android:text="8623 / Wetzikon ZH"
+            android:textAllCaps="false"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="14sp"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeMaxTextSize="18sp"
+            android:text="switzerland"
+            android:textAllCaps="false"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="14sp"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeMaxTextSize="18sp"
+            android:text="info@bottleservice.ch"
+            android:textAllCaps="false"
+            />
+
+
+
+        <!--AUTHORIZED PERSON-->
+
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:autoSizeMinTextSize="13sp"
+            android:autoSizeMaxTextSize="20sp"
+            android:text="Authorized persons"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="14sp"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeMaxTextSize="18sp"
+            android:text="Artan Neziri (Owner)"
+            android:textAllCaps="false"
+            />
+
+
+
+
+        <!--COMMERCIAL REGISTER-->
+
+
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:autoSizeMinTextSize="13sp"
+            android:autoSizeMaxTextSize="20sp"
+            android:text="Commercial Register"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="14sp"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeMaxTextSize="18sp"
+            android:text="Registered company name: Bottleservice GmbH"
+            android:textAllCaps="false"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="14sp"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeMaxTextSize="18sp"
+            android:text="Number: CHE-391 15 990"
+            android:textAllCaps="false"
+            />
+
+
+
+
+        <!--DISCLAIMER-->
+
+
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:autoSizeMinTextSize="13sp"
+            android:autoSizeMaxTextSize="20sp"
+            android:text="Disclaimer"
+            />
+
+
+        <TextView
+            android:id="@+id/disclaimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoSizeMaxTextSize="18sp"
+            android:autoSizeMinTextSize="10sp"
+            android:text="The author reserves the right not to be responsible for the accuracy, accuracy, timeliness, reliability and completeness of the information.
+
+Liability claims against the author due to material or immaterial damage resulting from the access or use or  non-use of the published information, through misuse of the connection or due to technical faults are excluded.
+
+All offers are without obligation. The author expressly reserves the right to change, supplement or delete parts of the pages or the entire offer without prior notice or to cease publication temporarily or permanently.
+"
+            android:textAllCaps="false"
+            android:textSize="14sp" />
+
+
+
+
+        <!--LIABILITY FOR LINKS-->
+
+
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:autoSizeMinTextSize="13sp"
+            android:autoSizeMaxTextSize="20sp"
+            android:text="Liability for links"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="14sp"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeMaxTextSize="18sp"
+            android:text="References and links to third party websites are beyond our responsibility. Any responsibility for such websites is disclaimed. The access and use of such websites are at the user's own risk.
+"
+            android:textAllCaps="false"
+            />
+
+
+
+
+        <!--COPYRIGHTS-->
+
+
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:autoSizeMinTextSize="13sp"
+            android:autoSizeMaxTextSize="20sp"
+            android:text="Copyrights"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="14sp"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeMaxTextSize="18sp"
+            android:text="The copyright and all other rights to the content, images, photos or other files on the website belong exclusively to the company bottleservice or the specifically named rights holders. For the reproduction of any elements, the written consent of the copyright holders must be obtained in advance.
+"
+            android:textAllCaps="false"
+            />
+
+
+
+
+
+        <!--DATA PROTECTION-->
+
+
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:autoSizeMinTextSize="13sp"
+            android:autoSizeMaxTextSize="25sp"
+            android:text="Data Protection"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="14sp"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeMaxTextSize="18sp"
+            android:text="Based on Article 13 of the Swiss Federal Constitution and the data protection regulations of the Federal Government (Data Protection Act, DSG), every person is entitled to protection of their privacy and to protection against misuse of their personal data. We comply with these terms. Personal data will be kept strictly confidential and will not be sold or passed on to third parties.
+
+In close cooperation with our hosting providers, we endeavor to protect the databases as far as possible against unauthorized access, loss, misuse or counterfeiting.
+
+When accessing our web pages, the following data is stored in log files: IP address, date, time, browser request and general transmitted information about the operating system resp. Browser.\nThese usage data form the basis for statistical, anonymous evaluations, so that trends can be identified, with which we can improve our offers accordingly.
+"
+            android:textAllCaps="false"
+            />
+
+
+
+
+
+        <!--Privacy Policy for the use of Facebook plug-ins-->
+
+
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:autoSizeMinTextSize="20sp"
+            android:autoSizeMaxTextSize="25sp"
+            android:text="Privacy Policy for the use of Facebook plug-ins (Like-Button)"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="14sp"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeMaxTextSize="18sp"
+            android:text="On our pages plugins of the social network Facebook, 1601 South California Avenue, Palo Alto, CA 94304, USA are integrated. The Facebook plugins can be recognized by the Facebook logo or the Like-Button (Like) on our site. An overview of the Facebook plugins can be found here: http://developers.facebook.com/docs/plugins/.
+
+When you visit our pages, the plugin establishes a direct connection between your browser and the Facebook server. Facebook receives the information that you have visited our site with your IP address. If you click on the Facebook Like-Button while you are logged into your Facebook account, you can link the contents of our pages to your Facebook profile. As a result, Facebook can assign the visit to our pages to your user account. We point out that we as the provider of the pages are not aware of the content of the data transmitted and their use by Facebook. Further information can be found in the facebook privacy policy at https://www.facebook.com/about/privacy/
+
+If you do not wish Facebook to associate your visit to our pages with your Facebook user account, please log out of your Facebook user account."
+            android:textAllCaps="false"
+            />
+
+
+
+        <!--Privacy Policy for the use of Twitter-->
+
+
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:autoSizeMinTextSize="20sp"
+            android:autoSizeMaxTextSize="25sp"
+            android:text="Privacy Policy for the use of Twitter"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="14sp"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeMaxTextSize="18sp"
+            android:text="Functions of the Twitter service are integrated on our sites. These features are provided by Twitter Inc., 795 Folsom St., Suite 600, San Francisco, CA 94107, USA. By using Twitter and the Re-Tweet function, the websites you visit are linked to your Twitter account and shared with other users. Among other things, data such as IP address, browser type, visited domains, visited pages, mobile service providers, device and application IDs and search terms are transmitted to Twitter.
+
+We point out that we as the provider of the pages are not aware of the content of the transmitted data and their use by Twitter. Due to continuous updating of the privacy policy of Twitter, we point to the latest version at (http://twitter.com/privacy).
+
+You can change your privacy settings on Twitter in the Account Settings at http://twitter.com/account/settings. If you have any questions, please contact privacy@twitter.com."
+            android:textAllCaps="false"
+            />
+
+
+
+        <!--Privacy Policy for the use of Google Adsense-->
+
+
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:autoSizeMinTextSize="20sp"
+            android:autoSizeMaxTextSize="25sp"
+            android:text="Privacy Policy for the use of Google Adsense"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="14sp"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeMaxTextSize="18sp"
+            android:text="This website uses Google AdSense, a service for integrating advertisements of Google Inc. (Google). Google AdSense uses so-called cookies, text files that are stored on your computer and that allow an analysis of the use of the website. Google AdSense also uses so-called web beacons (invisible graphics). These web beacons can be used to evaluate information such as visitor traffic on these \npages.
+
+The information generated by cookies and web beacons on the use of this website (including your IP address) and delivery of advertising formats are transmitted to and stored by Google on servers in the USA. This information may be shared by Google with Google affiliates. However, Google will not merge your IP address with other data you have stored.
+
+You can prevent the installation of cookies by setting your browser software accordingly; however, please note that in this case you may not be able to use all features of this website to the fullest extent. By using this website, you consent to the processing of data about you by Google in the manner and for the purposes set out above.
+"
+            android:textAllCaps="false"
+            />
+
+
+
+
+
+        <!--Privacy Policy for the use of Google Analytics-->
+
+
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:autoSizeMinTextSize="20sp"
+            android:autoSizeMaxTextSize="25sp"
+            android:text="Privacy Policy for the use of Google Analytics"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="14sp"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeMaxTextSize="18sp"
+            android:text="This website uses Google Analytics, a web analytics service provided by Google Inc. (Google). Google Analytics uses so-called cookies, text files that are stored on your computer and that allow an analysis of the use of the website by you. The information generated by the cookie about your use of this website is usually transmitted to a Google server in the USA and stored there. However, if IP anonymisation is activated on this website, your IP address will be shortened by Google beforehand within member states of the European Union or other parties to the Agreement on the European Economic Area.
+
+Only in exceptional cases will the full IP address be sent to a Google server in the US and shortened there. Google will use this information to evaluate your use of the website, to compile reports on website activity for website operators and to provide other services related to website activity and internet usage. Google may also transfer this information to third parties if required by law or as far as third parties process this data on behalf of Google. The IP address provided by Google Analytics as part of Google Analytics will not be merged with other Google data.
+
+You can prevent the installation of cookies by setting your browser software accordingly; however, please note that in this case you may not be able to use all features of this website to the fullest extent. By using this website, you consent to the processing of data about you by Google in the manner and for the purposes set out above.
+"
+            android:textAllCaps="false"
+            />
+
+
+
+
+
+
+
+
+
+        <!--Privacy Policy for the use of Google +1-->
+
+
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:autoSizeMinTextSize="20sp"
+            android:autoSizeMaxTextSize="25sp"
+            android:text="Privacy Policy for the use of Google +1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="14sp"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeMaxTextSize="18sp"
+            android:text="Use the Google +1 button to publish information worldwide. The Google +1 button will provide you and other users with personalized content from Google and its affiliates. Google stores both the information that you + 1'd for a piece of content and information about the page you viewed when you clicked +1. Your + 1's may appear as clues along with your profile name and photo in Google services, such as in search results or in your Google profile, or elsewhere on websites and ads on the web.
+
+Google records information about your + 1 activity to improve Google's services to you and others.
+
+To use the Google + 1 button, you need a globally visible, public Google profile that has at least the name chosen for the profile. This name will be used in all Google services. In some cases, this name may also replace a different name you used when sharing content through your Google Account. The identity of your Google Profile may be displayed to users who know your email address or have other identifying information from you.
+
+In addition to the uses outlined above, the information you provide will be used in accordance with the applicable Google privacy policy (http://www.google.com/intl/en/policies/privacy/). Google may publish summarized statistics on users' + 1 activity or share those statistics with our users and partners, such as publishers, advertisers, or affiliate websites."
+            android:textAllCaps="false"
+            />
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

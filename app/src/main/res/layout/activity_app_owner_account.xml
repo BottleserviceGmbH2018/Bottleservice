@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="ch.digitalmediafactory.bottleservice.AppOwnerAccount">
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/appbottomNavView_Bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        app:itemBackground="@color/Dashboard"
+        app:itemIconTint="@color/nav_item_color"
+        app:itemTextColor="@color/nav_item_color"
+        app:menu="@menu/nav_items">
+    </android.support.design.widget.BottomNavigationView>
+
+
+
+    <ScrollView
+        android:layout_marginBottom="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:clickable="true"
+                    android:onClick="buttonEditProfileView"
+                    app:srcCompat="@drawable/owner_account_circle_black_24dp"
+                    android:id="@+id/imageButton11" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/imageButton11"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:onClick="buttonEditProfileView"
+                    android:text="@string/edit_profile"
+                    android:textAlignment="textStart"
+                    android:textColor="#f2f2fd"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/imageButton11"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:onClick="buttonEditProfileView"
+                    android:text="Artan neziri - artan.neziri@bottleservice.ch"
+                    android:textAlignment="textStart"
+                    android:textColor="#f2f2fd"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:clickable="true"
+                    android:onClick="buttonEditSettingsView"
+                    app:srcCompat="@drawable/owner_settings_black_24dp"
+                    android:id="@+id/imageButton10" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/imageButton10"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:onClick="buttonEditSettingsView"
+                    android:text="@string/settings"
+                    android:textAlignment="textStart"
+                    android:textColor="#f2f2fd"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorPrimary"
+                    app:srcCompat="@drawable/owner_credit_card_black_24dp"
+                    android:clickable="true"
+                    android:onClick="buttonEditPayoutView"
+                    android:id="@+id/imageButton9" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/imageButton9"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:onClick="buttonEditPayoutView"
+                    android:text="@string/payout_methods"
+                    android:textAlignment="textStart"
+                    android:textColor="#f2f2fd"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorPrimary"
+                    app:srcCompat="@drawable/owner_contact_phone_black_24dp"
+                    android:id="@+id/imageButton7" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/imageButton7"
+                    android:autoLink="all"
+                    android:text="@string/contact_us"
+                    android:textAlignment="textStart"
+                    android:textColor="#f2f2fd"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    app:srcCompat="@drawable/owner_feedback_black_24dp"
+                    android:id="@+id/imageButton6" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/imageButton6"
+                    android:autoLink="all"
+                    android:text="@string/feedback"
+                    android:textAlignment="textStart"
+                    android:textColor="#f2f2fd"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorPrimary"
+                    app:srcCompat="@drawable/owner_thumb_up_black_24dp"
+                    android:id="@+id/imageButton4" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/imageButton4"
+                    android:autoLink="all"
+                    android:text="@string/like_bottleservice_on_facebook"
+                    android:textAlignment="textStart"
+                    android:textColor="#f2f2fd"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorWhiteTransparent"></LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorPrimary"
+                    app:srcCompat="@drawable/owner_power_settings_new_black_24dp"
+                    android:id="@+id/imageButton5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/imageButton5"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:onClick="AppOwnerLogout"
+                    android:text="@string/sign_out"
+                    android:textAlignment="textStart"
+                    android:textColor="#f2f2fd"
+                    android:textSize="15dp" />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:autoLink="all"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="30dp"
+                    android:text="Terms of Service and Privacy Policy"
+                    android:textColor="#67d8cc"
+                    android:textSize="15dp" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:autoLink="all"
+                android:paddingBottom="20dp"
+                android:text="Digital Media Factory Android 2.5.2 (beta)"
+                android:textAlignment="center"
+                android:textColor="#f2f2fd"
+                android:textSize="10dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

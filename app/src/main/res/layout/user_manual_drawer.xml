@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:autoLink="all"
+        android:text="@string/drawer_items"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:autoSizeMaxTextSize="21sp"
+        android:autoSizeMinTextSize="15sp" />
+
+
+    <Button
+        android:id="@+id/bButtonDrawer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="end"
+        android:layout_marginBottom="19dp"
+        android:layout_marginEnd="12dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="@color/colorWhiteTransparent"
+        android:scaleType="centerInside"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="#f2f2fd" />
+
+
+</RelativeLayout>

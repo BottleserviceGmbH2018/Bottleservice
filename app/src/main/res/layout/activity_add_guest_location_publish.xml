@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="ch.digitalmediafactory.bottleservice.AddGuestLocationPublish">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:padding="20dp"
+            android:layout_gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/loginlogo"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textSize="28dp"
+                android:text="@string/you_re_ready_to_publish"
+                android:textColor="#f2f2fd" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/if_you_d_like_to_update_your_posting_you_can_easily_do_al_that_after_yuo_hit_publish"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                />
+
+
+
+
+            <Button
+                android:id="@+id/bPublish"
+                android:layout_marginTop="10dp"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:text="@string/publish_location"
+                android:textColorHint="@color/colorWhiteTransparent"
+                android:clickable="true"
+                android:textColorHighlight="#7695f1"
+                android:background="@drawable/comeback_bg"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#f2f2fd"
+                android:textSize="15sp" />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="@string/make_changes"
+                android:textAlignment="center"
+                android:textColorHighlight="#7695f1"
+                android:textColorHint="@color/colorWhiteTransparent"
+                android:clickable="true"
+                android:onClick="buttonEditLocation"
+                android:background="@drawable/comeback_bg"
+                android:textAllCaps="false"
+                android:textColor="#f2f2fd"
+                android:textSize="15sp" />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

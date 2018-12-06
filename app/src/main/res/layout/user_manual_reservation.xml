@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="9dp"
+        android:autoLink="all"
+        android:autoSizeMaxTextSize="21sp"
+        android:autoSizeMinTextSize="15sp"
+        android:padding="10dp"
+        android:text="@string/click_on_the_image_to_show_details"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/reservation2" />
+
+
+
+    <Button
+        android:id="@+id/bButtonReservation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="end"
+        android:layout_marginBottom="19dp"
+        android:layout_marginEnd="12dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="@color/colorWhiteTransparent"
+        android:scaleType="centerInside"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="#f2f2fd" />
+
+
+</RelativeLayout>
